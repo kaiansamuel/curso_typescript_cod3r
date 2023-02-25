@@ -26,3 +26,9 @@ console.log(typeof minhaIdade)
 
 let hobies: string[] = ['Estudar', 'Praticar o que eu estudei']
 console.log(hobies[1])
+
+//tuplas
+
+let endereco: [string, number] = ['Av. Principal', 123]
+console.log(`O endereço é: ${endereco}`)
+

@@ -16,3 +16,6 @@ console.log(typeof minhaIdade);
 //arrays
 var hobies = ['Estudar', 'Praticar o que eu estudei'];
 console.log(hobies[1]);
+//tuplas
+var endereco = ['Av. Principal', 123];
+console.log("O endere\u00E7o \u00E9: ".concat(endereco));
