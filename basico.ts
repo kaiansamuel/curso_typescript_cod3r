@@ -32,3 +32,19 @@ console.log(hobies[1])
 let endereco: [string, number] = ['Av. Principal', 123]
 console.log(`O endereço é: ${endereco}`)
 
+//Enums
+
+enum Cor {
+  azul,
+  vermelho,
+  roxo
+}
+
+let myColor: Cor = Cor.azul
+console.log(myColor)
+
+//Any
+
+let carro: any = 'BMW'
+carro = {marca: 'BMW', ano: 2022}
+console.log(carro)

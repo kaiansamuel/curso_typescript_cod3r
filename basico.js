@@ -19,3 +19,12 @@ console.log(hobies[1]);
 //tuplas
 var endereco = ['Av. Principal', 123];
 console.log("O endere\u00E7o \u00E9: ".concat(endereco));
+//Enums
+var Cor;
+(function (Cor) {
+    Cor[Cor["azul"] = 0] = "azul";
+    Cor[Cor["vermelho"] = 1] = "vermelho";
+    Cor[Cor["roxo"] = 2] = "roxo";
+})(Cor || (Cor = {}));
+var myColor = Cor.azul;
+console.log(myColor);
