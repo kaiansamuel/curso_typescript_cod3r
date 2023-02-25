@@ -12,4 +12,7 @@ var possuiHobie = true;
 console.log("O valor de possuiHobie \u00E9: ".concat(possuiHobie));
 var minhaIdade;
 minhaIdade = 27;
-console.log("Minha idade \u00E9: ".concat(minhaIdade));
+console.log(typeof minhaIdade);
+//arrays
+var hobies = ['Estudar', 'Praticar o que eu estudei'];
+console.log(hobies[1]);

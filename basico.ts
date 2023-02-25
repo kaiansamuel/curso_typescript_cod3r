@@ -20,4 +20,9 @@ console.log(`O valor de possuiHobie é: ${possuiHobie}`)
 
 let minhaIdade: number 
 minhaIdade = 27
-console.log(`Minha idade é: ${minhaIdade}` )
+console.log(typeof minhaIdade)  
+
+//arrays
+
+let hobies: string[] = ['Estudar', 'Praticar o que eu estudei']
+console.log(hobies[1])
